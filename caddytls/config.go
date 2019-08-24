@@ -419,7 +419,8 @@ func SetDefaultTLSParams(config *Config) {
 	}
 
 	// Prefer server cipher suites
-	config.PreferServerCipherSuites = true
+	// ZDY: trust user, because my home router j1900 does not have aes-ni.
+	config.PreferServerCipherSuites = false
 }
 
 // Map of supported key types
