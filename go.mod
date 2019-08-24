@@ -1,4 +1,4 @@
-module github.com/caddyserver/caddy
+module github.com/fortitudepub/caddy
 
 go 1.12
 
